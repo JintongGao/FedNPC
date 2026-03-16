@@ -1,6 +1,3 @@
-"""Copyright (c) Facebook, Inc. and its affiliates.
-All rights reserved.
-
 import random
 import numpy as np
 from torch.utils.data.sampler import Sampler

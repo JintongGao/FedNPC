@@ -4,11 +4,9 @@ import copy
 
 
 def classify_label_fast(dataset, num_classes: int):
-    """极速版类别索引分类 (比原版快5-10倍)"""
-    # 使用预分配数组 + 批量处理
-    labels = np.array([datum[1] for datum in dataset])  # 一次性获取所有标签
+
+    labels = np.array([datum[1] for datum in dataset]) 
     
-    # 使用NumPy的高级索引
     label_to_indices = []
     for class_id in range(num_classes):
         mask = (labels == class_id)
@@ -27,20 +25,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 from collections import defaultdict
 def analyze_client_distribution(list_client2indices, train_dataset, num_classes):
-    """
-    安全分析客户端分布 (兼容DataLoader不可索引问题)
-    参数:
-        list_client2indices: 客户端索引列表
-        dataloader: ImageNetLTDataLoader对象
-        num_classes: 类别数
-    """
-    # 正确获取标签数组
+    
     if hasattr(train_dataset, 'labels'):
         all_labels = np.array(train_dataset.labels)
     else:
         raise AttributeError("DataLoader的dataset属性缺少labels")
     
-    # 统计每个客户端的类别分布
     client_stats = []
     for client_idx, indices in enumerate(list_client2indices):
         client_labels = all_labels[indices]

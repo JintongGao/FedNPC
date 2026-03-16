@@ -31,7 +31,7 @@ CUDA_VISIBLE_DEVICES=0 python FedAvg-FedNPC.py --num_classes 10
 CIFAR-100-LT (FedAvg + FedNPC):
 
 ```
-CUDA_VISIBLE_DEVICES=0 python FedAvg-FedNPC.py --num_classes 100
+CUDA_VISIBLE_DEVICES=0 python FedAvg-FedNPC.py --num_classes 100 --E 50
 ```
 
 ## Citation
@@ -40,11 +40,11 @@ If you find our paper and repo useful, please cite our paper.
 
 ```
 @inproceedings{
-Gao2024DisA,
-title={Distribution Alignment Optimization through Neural Collapse for Long-tailed Classification},
-author={Jintong Gao and He Zhao and Dandan Guo and Hongyuan Zha},
+Gao2026FedNPC,
+title={FedNPC: Stochastic Noise-driven Post-hoc Classifier Calibration Method for Federated Long-tailed Learning},
+author={Jintong Gao and He Zhao and Yibo Yang and Dandan Guo},
 booktitle={International Conference on Machine Learning (ICML)},
-year={2024}
+year={2026}
 }
 ```
 ## Contact

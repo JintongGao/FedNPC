@@ -2,7 +2,7 @@
 
 by Jintong Gao<sup>1</sup>, He Zhao<sup>2</sup>, Yibo Yang<sup>3</sup>, Dandan Guo<sup>1</sup>, <sup>3</sup>
 
-<sup>1</sup>Jilin University, <sup>2</sup>CSIRO's Data61, <sup>3</sup>King Abdullah University of Science and Technology
+<sup>1</sup>School of Artificial Intelligence, Jilin University, <sup>2</sup>CSIRO's Data61, <sup>3</sup>King Abdullah University of Science and Technology
 
 This is the official implementation of [(Link to be updated)FedNPC: Stochastic Noise-driven Post-hoc Classifier Calibration Method for Federated Long-tailed Learning](XXX) in PyTorch.
 

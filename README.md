@@ -4,7 +4,7 @@ by Jintong Gao<sup>1</sup>, He Zhao<sup>2</sup>, Yibo Yang<sup>3</sup>, Dandan G
 
 <sup>1</sup>Jilin University, <sup>2</sup>CSIRO's Data61, <sup>3</sup>King Abdullah University of Science and Technology
 
-This is the official implementation of [FedNPC: Stochastic Noise-driven Post-hoc Classifier Calibration Method for Federated Long-tailed Learning](XXX) in PyTorch.
+This is the official implementation of [(Link to be updated)FedNPC: Stochastic Noise-driven Post-hoc Classifier Calibration Method for Federated Long-tailed Learning](XXX) in PyTorch.
 
 ## Requirements:
 
@@ -43,7 +43,7 @@ If you find our paper and repo useful, please cite our paper.
 Gao2026FedNPC,
 title={FedNPC: Stochastic Noise-driven Post-hoc Classifier Calibration Method for Federated Long-tailed Learning},
 author={Jintong Gao and He Zhao and Yibo Yang and Dandan Guo},
-booktitle={International Conference on Machine Learning (ICML)},
+booktitle={2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition- FINDINGS Track (CVPRF)},
 year={2026}
 }
 ```
